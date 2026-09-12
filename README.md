@@ -22,6 +22,7 @@ I use modern AI tools (Claude, ChatGPT, Codex) as learning accelerators and prot
 > * **Personal Work:** Music writing and production, hardware network configuration, OS troubleshooting, business research, and daily Python study are my own direct work.
 > * **AI-Assisted Prototypes:** In software projects like *RuneRun*, I acted as the game designer, creative director, and tester—directing AI assistants to generate the JavaScript and audio synthesis code while managing the feature roadmap.
 > * **Active Learning:** I am actively working through core Python syntax, data structures, and algorithms to build durable, unassisted programming literacy.
+> * **Anti-"Vibe Coding" Policy:** I adhere to an explicit **Intent-to-Evidence Control Loop**: I do not accept or commit code I cannot line-by-line trace and explain; daily recall study is conducted in an AI-free zone to eliminate the "competence illusion"; and all tools are built with strict failure envelopes.
 
 ---
 

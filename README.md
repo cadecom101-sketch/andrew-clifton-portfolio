@@ -1,154 +1,119 @@
-# Andrew Clifton — Systems Architecture & AI Direction Portfolio
-### *Technical Product Lead & AI Systems Architect*
+# Andrew Clifton — Portfolio & Project Archive
+**Creative Production, Practical Systems Administration, and Python Learning Journey**
 
-[![Focus: AI Systems & Architecture](https://img.shields.io/badge/Focus-AI%20Systems%20%26%20Architecture-blue.svg)](#core-engineering-philosophy)
-[![Methodology: Deterministic Guardrails](https://img.shields.io/badge/Methodology-Deterministic%20Software%20Gates-darkgreen.svg)](#core-engineering-philosophy)
-[![Status: Open to FDE & Solutions Roles](https://img.shields.io/badge/Status-Open%20to%20Forward%20Deployed%20%2F%20AI%20Solutions-orange.svg)](#contact--collaboration)
-[![Catalog: 11 Production Showcases](https://img.shields.io/badge/Showcases-11%20Production%20Case%20Studies-brightgreen.svg)](#portfolio-flagship-matrix)
-[![Roadmap: 3 Intertwined Loops](https://img.shields.io/badge/Roadmap-3%20Intertwined%20Loops-purple.svg)](./MASTER_ROADMAP.md)
+[![Path: Python Foundations](https://img.shields.io/badge/Path-Python%20Foundations-blue.svg)](#1-technical-education--python-foundations)
+[![Methodology: Radical Transparency](https://img.shields.io/badge/Methodology-Radical%20Honesty%20%26%20Transparency-green.svg)](#transparency--ai-tooling-statement)
+[![Status: Active Learner & Builder](https://img.shields.io/badge/Status-Active%20Learner%20%26%20Builder-orange.svg)](#about-me)
 
 ---
 
-## Executive Summary
+## About Me
 
-> 🗺️ **Strategic Architecture:** See the **[Master Executive Architecture Roadmap](./MASTER_ROADMAP.md)** for how my professional identity, architectural doctrine, and 11 case studies form three continuous, self-reinforcing loops.
+I am an independent builder and career switcher actively studying foundational computer science and Python programming (started July 2026). My background spans commercial audio production, practical home/workstation systems administration, business research, and creative digital media.
 
-I am a **Technical Product Lead and AI Systems Architect**. I specialize in bridging the gap between high-level business ambiguity and production AI systems.
-
-Most AI initiatives fail because teams either build unconstrained "vibe-prompted" prototypes that hallucinate in production, or they let autonomous agents execute unmonitored code. My architectural doctrine is founded on **radical transparency, external deterministic software firewalls, and human-in-the-loop governance**:
-* **Agents Propose, Deterministic Code Disposes:** Non-deterministic LLMs handle unstructured ingestion, creative synthesis, and draft proposals. Deterministic code (Python, PostgreSQL, SQLite, Pydantic) enforces all schemas, risk limits, financial transactions, and state transitions.
-* **The Downward-Ratchet State Machine:** Systems are engineered to be conservative. A market research or trading engine starts at a baseline score and can only be ratcheted down by hard gates—preventing models from rationalizing false "BUILD" or false "TRADE" decisions.
-* **Fail-Closed Reliability:** If a network disconnect, API rate-limit, or missing configuration occurs, the system defaults to safety—canceling exposure and halting execution.
-
-```
-                             THE ARCHITECTURAL DOCTRINE
-  Unstructured Ingestion ──► [ AI Agent Reasoning ] ──► Structured Proposals (JSON)
-  • Live Web Search           (Non-Deterministic)                 │
-  • Creative / Code Drafts                                        ▼
-                                                      [ Deterministic Hard Gates ]
-  Production Execution  ◄── [ Human-In-The-Loop ] ◄── • Pydantic Schema Validation
-  (Zero Hallucinations)     (Approve/Deny/Adjust)     • Downward-Ratchet Logic
-                                                      • External Risk Firewalls
-```
+I use modern AI tools (Claude, ChatGPT, Codex) as learning accelerators and prototyping assistants. I do not claim to be a senior software engineer or an enterprise systems architect. This portfolio is an honest, factual record of what I have actually built, what I have directed, what I am learning, and how I approach problem-solving.
 
 ---
 
-## Portfolio Flagship Matrix
+## Transparency & AI Tooling Statement
 
-This portfolio spans 11 production-grade case studies across distributed multi-agent systems, game engineering, commercial creative pipelines, and quantitative risk engines:
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                   ANDREW CLIFTON PORTFOLIO MAP                                   │
-├──────────────────────────────┬──────────────────────────────┬────────────────────────────────────┤
-│   AUTONOMOUS MULTI-AGENT     │    GAMES & CREATIVE TECH     │     FINANCE, RISK & OPERATIONS     │
-├──────────────────────────────┼──────────────────────────────┼────────────────────────────────────┤
-│ • Autonomous Demand Engine   │ • RuneRun (Version 14)       │ • AEGIS-1 Quantitative Trader      │
-│ • NEXUS CAS-MAS (Step 8)     │ • Nightcore Artist Project   │ • Self-Storage Underwriting Engine │
-│ • MAS Sally Hermes OS        │ • Losing Against Ghosts (LAG)│ • Central Home Properties OS       │
-│                              │ • OpenMontage Video Engine   │ • Host QoS Network Optimization    │
-└──────────────────────────────┴──────────────────────────────┴────────────────────────────────────┘
-```
+> **Honesty First:** Many tech portfolios today present AI-generated code and theoretical architectures as if the author wrote them from scratch. I do not do that.
+> 
+> * **Personal Work:** Music writing and production, hardware network configuration, OS troubleshooting, business research, and daily Python study are my own direct work.
+> * **AI-Assisted Prototypes:** In software projects like *RuneRun*, I acted as the game designer, creative director, and tester—directing AI assistants to generate the JavaScript and audio synthesis code while managing the feature roadmap.
+> * **Active Learning:** I am actively working through core Python syntax, data structures, and algorithms to build durable, unassisted programming literacy.
 
 ---
 
-### 1. Autonomous Multi-Agent Systems & AI Engines
+## Project Catalog
 
-#### 🔍 [Autonomous Demand Research Engine (ADRE)](./case-studies/01-autonomous-demand-research/README.md)
-* **Value Prop:** An AI-directed, evidence-gated validation pipeline that prevents premature, expensive "BUILD" decisions.
-* **Tech Stack:** Python 3.12, Claude Opus 4.8 native web tools, Pydantic schemas, immutable JSONL audit ledgers.
-* **Key Innovation:** A 5-phase sequential gating pipeline (Signal, Buyer Language, Pricing, Competitors, Mechanism) governed by a pure Python downward-ratchet state machine that LLMs cannot override.
-
-#### 🏛️ [NEXUS CAS-MAS — Step 8 Production Architecture](./case-studies/05-nexus-cas-mas-platform/README.md)
-* **Value Prop:** An 8-step production-hardened multi-agent platform designed for enterprise reliability.
-* **Tech Stack:** FastAPI, PostgreSQL, NATS JetStream event streaming, React command console, Docker Compose, Nginx.
-* **Key Innovation:** Two-phase deployment approval packets with automated dry-run smoke testing and pre-calculated rollback manifests executable in <10 seconds.
-
-#### 🧠 [MAS_SALLY_HERMES — Autonomous Revenue OS](./case-studies/04-sally-hermes-revenue-os/README.md)
-* **Value Prop:** A 5-layer Complex Adaptive System (CAS-MAS-HITL) coupling open-weight models with relational memory.
-* **Tech Stack:** Nous Hermes, LiteLLM local gateway (`127.0.0.1:4000`), SQLite relational blackboard, Langfuse cost telemetry.
-* **Key Innovation:** MinHash/Jaccard mathematical deduplication ($>0.70$ similarity threshold) to prevent agents from flooding marketplaces with derivative digital products.
+### 1. Technical Education & Python Foundations
+* **Status:** Active Study (Daily disciplined warm-ups and exercises)
+* **Intake Date:** July 14, 2026
+* **Curriculum:** Mimo Python Developer Path, Coursera, Codecademy, and deliberate recall practice.
+* **Topics Mastered & In Progress:**
+  - Variables, state tracking, and assignment mechanics (`score = score + 3`).
+  - Primitive data types (integers, floats, strings, booleans) and type coercion.
+  - Conditional branching (`if`, `elif`, `else`) and logical operators.
+  - Loops (`while`, `for`) and iteration over collections.
+  - Writing clean, modular functions with return values.
+  - Independent debugging from blank files without autocomplete or AI crutches.
+* **Goal:** Complete the 115-item Mimo certification and build employable, practical scripting skills from the ground up.
 
 ---
 
-### 2. Games, Audio & Creative Technology
-
-#### 🎮 [RuneRun — Canvas 2D Game & Procedural Web Audio](./case-studies/02-runerun-game-audio-engine/README.md)
-* **Value Prop:** A zero-dependency HTML5 Canvas 2D game shipped to Version 14 under multi-assistant governance.
-* **Tech Stack:** Vanilla JavaScript, HTML5 Canvas 2D, Web Audio API procedural synthesis, Python test runner.
-* **Key Innovation:** Dual-assistant peer verification (Claude synthesizes, Codex audits) backed by an automated **161/161-assertion Python test suite** and deployment share-pin controls.
-
-#### 🎵 [Nightcore Artist Project (NIGHTCORE-001)](./case-studies/03-nightcore-artist-pipeline/README.md)
-* **Value Prop:** A commercial generative media operations framework managing a digital Eurodance pop artist IP.
-* **Tech Stack:** Suno audio generation (<1000 char prompt constraints), character image diffusion reference bible, cryptographic asset manifest.
-* **Key Innovation:** An 8-tier immutable folder structure tracking 5 songs (`SONG-001` through `SONG-005 That Was Terrible`) with cryptographic hash verification to prevent AI context loss.
-
-#### 🎸 [Losing Against Ghosts (LAG)](./case-studies/08-losing-against-ghosts-rock-catalog/README.md)
-* **Value Prop:** A modern heavy alternative rock music catalog (6 remastered masters) and global digital rights system.
-* **Tech Stack:** DistroKid ("Losing Ghosts" label), YouTube Content ID, Meta Rights Manager, SoundScan, Tapered Artifact ops manual.
-* **Key Innovation:** 4 released singles across 24 platforms, identifying an audited **5,854 HyperFollow discovery signal** on *"Ashes Between Us"*, with permanent *Leave a Legacy* rights accrual.
-
-#### 🎬 [OpenMontage — Agentic Video Production Engine](./case-studies/11-openmontage-video-engine/README.md)
-* **Value Prop:** An open-source, code-driven video engine combining AI scripting agents with React-based rendering.
-* **Tech Stack:** Remotion React, Headless Chromium, FFmpeg, Python/Bash CLI runners, 40KB Agent Guide.
-* **Key Innovation:** Treats video as declarative code and structured JSON schemas, enabling automated kinetic typography and dynamic 18dB audio ducking without desktop video editing software.
+### 2. Workstation Systems Administration & Storage Recovery
+* **Domain:** Windows 10 OS Administration, Storage Forensics, VSS Backup
+* **Machine:** HP Pavilion Desktop (`desktop-366fofl`), Samsung NVMe SSD (118 GB) + Toshiba SATA HDD (1 TB)
+* **What Happened:**
+  - The workstation's primary NVMe SSD hit a critical storage floor (~10.5 GB free), threatening daily operations.
+  - Initial automated AI cleanup scripts made false claims ("0% risk, 14.36 GB freed") while actually breaking Puppeteer's Chrome binaries, setting ineffective environment variables, and failing to stop the Windows pagefile from reabsorbing the freed space.
+  - I halted execution, ran an independent forensic audit, and directed a multi-phase remediation plan.
+* **Actions Taken & Verified:**
+  - Enabled Windows System Protection (VSS) and created a verified restore point before making any system changes.
+  - Safely eliminated unneeded hibernation files on an A/C-powered desktop (`powercfg /hibernate off`), freeing **+3.15 GB**.
+  - Pruned stale Windows Update download caches and multi-profile Chrome browser caches, freeing **+4.70 GB** with zero loss of logins or bookmarks.
+  - Addressed root causes by capping `pagefile.sys` (4 GB on NVMe SSD, 8 GB overflow on HDD) and executing a DISM Component Store cleanup (**-3.13 GB** unlinked).
+  - Repopulated Puppeteer and Playwright browser binaries onto the secondary HDD (`D:\caches\`) and permanently locked tool cache configs (`pip.ini`, `.npmrc`, `.puppeteerrc.cjs`).
+* **Final Result:** Reclaimed **+15.57 GB** of safe headroom, bringing the NVMe boot drive from **10.51 GB (8.9%) to 26.08 GB (22.1%)** free space without breaking application sandboxes or corrupting multi-user accounts.
 
 ---
 
-### 3. Quantitative Finance, Risk & Operations
-
-#### 🛡️ [AEGIS-1 — Autonomous Trader & Risk Firewall](./case-studies/09-aegis-one-autonomous-trader/README.md)
-* **Value Prop:** A fail-closed, one-agent quantitative trading architecture governed by external deterministic firewalls.
-* **Tech Stack:** Python 3.12, Pytest, Pydantic, ADR-0001, ADR-0002, RP-0001 Rev B.1.
-* **Key Innovation:** The agent has zero broker credentials. All orders must pass through an external risk firewall enforcing position clamps, drawdown circuit breakers, and a **dual-sealed 250-intent confirmation study** before any capital can be deployed.
-
-#### 🏢 [Self-Storage Commercial Underwriting Engine](./case-studies/06-self-storage-underwriting/README.md)
-* **Value Prop:** A quantitative feasibility model and local RAG system that evaluated small-scale storage in Northern Arkansas.
-* **Tech Stack:** Excel financial sensitivity models, Python local RAG (Arkansas Code Annotated Title 18), 5-construction trade-off matrix.
-* **Key Innovation:** The **D-009 Pre-Spend Gate** ($1,000/mo after-debt buffer at 7.5% APR). When the numbers failed the debt screen, the model correctly delivered an executive **"CAPITAL PRESERVATION / DO NOT SPEND"** verdict, protecting family reserves.
-
-#### 🏡 [Central Home Properties OS](./case-studies/07-central-home-properties-os/README.md)
-* **Value Prop:** An end-to-end real estate wholesale operations engine and federal Section 8 housing SOP platform.
-* **Tech Stack:** 6-phase transaction pipeline, Maximum Allowable Offer (MAO) formula, Section 8 SOP Pack v1.2.
-* **Key Innovation:** Comprehensive standard operating procedures for the HUD Housing Choice Voucher program—covering RFTA packet submission, 28-point HQS pre-audits, and guaranteed government rent roll stabilization.
-
-#### 🌐 [Host QoS Network Optimization](./case-studies/10-host-qos-network-optimization/README.md)
-* **Value Prop:** Performance engineering audit and bufferbloat mitigation on a CenturyLink C3000Z gateway.
-* **Tech Stack:** Traffic shaping QoS, DSCP packet classification, binary router configuration snapshots, PDF audit guides.
-* **Key Innovation:** Engineered the **DevMax Clamp**, eliminating upstream latency spikes from 1,200ms down to **<25ms under 100% upload load** with a documented 2-minute rollback runbook.
+### 3. Home Network Optimization (Bufferbloat Mitigation)
+* **Domain:** Network Infrastructure, QoS Traffic Shaping, Hardware Configuration
+* **Hardware:** CenturyLink C3000Z Modem / Gateway
+* **Problem:** High latency spikes and jitter during concurrent video streaming and interactive usage (bufferbloat).
+* **What Was Done:**
+  - Audited local gateway metrics and conducted benchmark latency testing.
+  - Configured custom Quality of Service (QoS) bandwidth limits (DevMax Clamp) to throttle upstream/downstream saturation points.
+  - Documented complete configuration changes and rollback runbooks in a formal technical guide.
+* **Result:** Stabilized ping times under heavy load and eliminated latency spikes across all household devices.
 
 ---
 
-## Core Technical Competencies
-
-```
-┌──────────────────────────────┬──────────────────────────────┬──────────────────────────────────┐
-│     SYSTEMS ARCHITECTURE     │       AI GOVERNANCE          │       ENGINEERING RIGOR          │
-├──────────────────────────────┼──────────────────────────────┼──────────────────────────────────┤
-│ • Event-Driven Streams (NATS)│ • External Risk Firewalls    │ • Zero-Dependency Systems (JS/Py)│
-│ • Relational State (Postgres)│ • Deterministic Hard Gates   │ • Automated Test Suites (Pytest) │
-│ • Local Model Gateways       │ • Downward-Ratchet Logic     │ • Pre-Calculated Rollback Plans  │
-│ • Distributed Microservices  │ • MinHash Deduplication      │ • Cryptographic Hash Manifests   │
-│ • Reverse Proxies (Nginx)    │ • Human-in-the-Loop Policies │ • Fail-Closed Defaults           │
-└──────────────────────────────┴──────────────────────────────┴──────────────────────────────────┘
-```
+### 4. Commercial Music Production — "Losing Against Ghosts"
+* **Domain:** Audio Engineering, Commercial Music Distribution, Digital Rights Operations
+* **Catalog:** 6 remastered studio tracks (Alternative / Heavy Rock)
+* **Distribution:** Released globally across Spotify, Apple Music, Amazon, YouTube Music via DistroKid ("Losing Ghosts" label).
+* **Operations & Results:**
+  - Directed mixing, mastering, metadata tagging, and cover art production.
+  - Enforced digital rights protection via YouTube Content ID and Meta Rights Manager.
+  - Built an organic discovery signal of **5,854 HyperFollow presaves/followers** on lead single *"Ashes Between Us"*.
+  - Authored standard operating manuals for release package packaging and permanent rights accrual.
 
 ---
 
-## My Working Philosophy: Radical Transparency
-
-I reject the narrative of the "solitary coder who writes everything from raw assembly" just as I reject the "prompter who claims AI did all the thinking."
-
-In all of my projects:
-1. **I act as the Architect, Technical Product Lead, and Quality Gatekeeper.** I formulate the mathematical constraints, data schemas, risk firewalls, and operational hierarchies.
-2. **I direct modern AI models as high-velocity execution engines.** AI writes boilerplate, explores candidate branches, and translates unstructured data into typed formats.
-3. **I verify everything.** No code is promoted without automated tests, audit logs, and human authorization.
+### 5. Game Prototyping & Creative Direction — "RuneRun" (Version 14)
+* **Domain:** Creative Direction, Game Design, AI Pair-Programming
+* **Project:** Retro HTML5 Canvas 2D action game with procedural Web Audio.
+* **Andrew's Actual Role:**
+  - Conceived the gameplay loop, level mechanics, and audio themes.
+  - Directed AI assistants (Claude, Codex) to write the vanilla JavaScript game engine, collision math, and Web Audio synthesis code.
+  - Managed feature roadmaps, tested every version through 14 iterative releases, and validated stability using automated test runners (161 test assertions).
+* **Key Learning:** Learned how to evaluate code generated by AI, spot regression bugs, manage feature scope, and maintain git version checkpoints.
 
 ---
 
-## Contact & Collaboration
+### 6. Generative Media Framework — "Nightcore Artist Project"
+* **Domain:** Creative Operations, Digital Artist IP, Asset Organization
+* **Project:** Commercial generative audio and character illustration pipeline.
+* **What Was Done:**
+  - Created a digital artist persona and produced 5 songs using Suno audio generation tools.
+  - Built an 8-tier folder structure to solve the #1 issue in generative AI projects: prompt drift, lost assets, and unorganized variations.
+  - Maintained reference bibles for character illustration consistency across releases.
 
-* **GitHub:** [cadecom101-sketch](https://github.com/cadecom101-sketch)  
-* **Email:** [cad.ecom101@gmail.com](mailto:cad.ecom101@gmail.com)  
-* **Location:** Arkansas, USA (Remote / Travel)  
-* **Target Roles:** Forward Deployed Engineer (FDE) · AI Solutions Architect · Technical Product Lead
+---
+
+### 7. Business Feasibility & Operations Research
+* **Domain:** Real Estate Feasibility, Commercial Finance Modeling
+* **Projects:**
+  - **Central Home Properties OS:** Researched wholesale real estate deal intake procedures, lead tracking spreadsheets, and Section 8 Housing Choice Voucher compliance checklists.
+  - **Self-Storage Commercial Feasibility:** Explored 5-scenario financial sensitivity models and zoning research for commercial storage development.
+* **What Was Done:** Researched industry standards, organized legal/zoning documentation into structured reference folders, and created practical operational checklists.
+
+---
+
+## Contact & Links
+* **GitHub:** [cadecom101-sketch](https://github.com/cadecom101-sketch)
+* **Location:** Arkansas, USA
+* **Current Focus:** Python programming foundations, practical computer science, and transparent, AI-assisted project building.

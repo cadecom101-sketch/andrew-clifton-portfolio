@@ -5,10 +5,13 @@
 [![Methodology: Deterministic Guardrails](https://img.shields.io/badge/Methodology-Deterministic%20Software%20Gates-darkgreen.svg)](#core-engineering-philosophy)
 [![Status: Open to FDE & Solutions Roles](https://img.shields.io/badge/Status-Open%20to%20Forward%20Deployed%20%2F%20AI%20Solutions-orange.svg)](#contact--collaboration)
 [![Catalog: 11 Production Showcases](https://img.shields.io/badge/Showcases-11%20Production%20Case%20Studies-brightgreen.svg)](#portfolio-flagship-matrix)
+[![Roadmap: 3 Intertwined Loops](https://img.shields.io/badge/Roadmap-3%20Intertwined%20Loops-purple.svg)](./MASTER_ROADMAP.md)
 
 ---
 
 ## Executive Summary
+
+> 🗺️ **Strategic Architecture:** See the **[Master Executive Architecture Roadmap](./MASTER_ROADMAP.md)** for how my professional identity, architectural doctrine, and 11 case studies form three continuous, self-reinforcing loops.
 
 I am a **Technical Product Lead and AI Systems Architect**. I specialize in bridging the gap between high-level business ambiguity and production AI systems.
 
